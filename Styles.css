@@ -1,0 +1,199 @@
+:root {
+    --cor--background: #021526;
+    --cor--principal: #7C93C3;
+    --cor--secundária: #55679C;
+    --cor--terciária: #1E2A5E;
+    --cor--quartenário: #E1D7B7;
+    --cor--texto--princ: #EEEEEE;
+    --cor--negocio: #F5F7F8;
+    --cor-projetos: #435585;
+    --cor--rodape: #27374D;
+
+    --fonte--logo: "Dorsa", sans-serif;
+    --fonte--menu: "Share Tech", sans-serif;
+    --fonte--negocio:  "Oswald", sans-serif;
+}
+
+body {
+    background-color: var(--cor--background);
+}
+
+.cabecalho {
+    background-color: var(--cor--principal);
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.cabecalho__logo {
+    margin-left: 70px;
+    margin-right: 650px;
+    text-decoration: none;
+    font-family: var(--fonte--logo);
+    font-size: 50px;
+    color: var(--cor--texto--princ);
+    font-weight: 400;
+}
+
+.cabecalho__sobre__mim {
+    font-family: var(--fonte--menu);
+    color: var(--cor--texto--princ);
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+.cabecalho__contato {
+    font-family: var(--fonte--menu);
+    color: var(--cor--texto--princ);
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+.cabecalho__curriculo {
+    font-family: var(--fonte--menu);
+    color: var(--cor--texto--princ);
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 150px; 
+}
+
+.meio {
+    background-color: var(--cor--terciária);
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 400px;
+}
+
+.meio__negocio{
+    font-family: var(--fonte--negocio);
+    font-size: 29px;
+    color: var(--cor--negocio);
+    margin-left: 4px;
+    padding-top: 50px;
+    text-align: center;
+} 
+
+.meio__texto {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--cor--negocio);
+    font-family: var(--fonte--negocio);
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+
+.meio__saiba__mais {
+    text-decoration: none;
+    color: var(--cor--negocio);
+    font-family: var(--fonte--menu);
+    font-size: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.meio__saiba__mais:hover {
+    background-color: var(--cor--principal);
+    border-radius: 10px;
+}
+
+.quem__sou {
+    background-color: var(--cor--secundária);
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 400px;
+}
+
+.quem__sou__eu {
+    color: var(--cor--negocio);
+    text-align: center;
+    font-size: 29px;
+    font-family: var(--fonte--negocio);
+    padding-top: 50px;
+}
+
+.quem__sou__texto {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--cor--negocio);
+    font-family: var(--fonte--negocio);
+    font-size: 25px;
+    margin-top: 50px; 
+}
+
+.quem__sou__link {
+    text-decoration: none;
+    color: var(--cor--negocio);
+    font-family: var(--fonte--menu);
+    font-size: 40px;
+    margin-left: 400px;
+    margin-right: 400px; 
+}
+
+.quem__sou__link:hover {
+    background-color: var(--cor--principal);
+    border-radius: 10px;
+}
+
+.projetos {
+    background-color: var(--cor-projetos);
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 400px;
+}
+
+.projetos__projeto {
+    color: var(--cor--negocio);
+    text-align: center;
+    font-size: 29px;
+    font-family: var(--fonte--negocio);
+    padding-top: 50px;
+}
+
+.projetos__texto {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--cor--negocio);
+    font-family: var(--fonte--negocio);
+    font-size: 25px;
+    margin-top: 50px; 
+}
+
+.projetos__link {
+    text-decoration: none;
+    color: var(--cor--negocio);
+    font-family: var(--fonte--menu);
+    font-size: 40px;
+    margin-left: 400px;
+    margin-right: 400px; 
+}
+
+
+.projetos__link:hover {
+    background-color: var(--cor--principal);
+    border-radius: 10px;
+}
+
+
+.rodape {
+    margin-top: 300px;
+    background-color: var(--cor--rodape);
+    border-radius: 25px;
+}
+
+.rodape__dev {
+    color: var(--cor--negocio);
+    font-family: var(--fonte--menu);
+    text-align: center;
+}
